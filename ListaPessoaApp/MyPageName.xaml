@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="ListaPessoaApp.MyPageName">
+             x:Class="ListaPessoaApp.MyPageName"
+             Title="Lista de Pessoas"
+             BackgroundImage="ElefanteImg.jpeg">
+    
+    <ContentPage.ToolbarItems>
+        
+        <ToolbarItem Text="Voltar" Clicked="Voltar"/>
+        
+    </ContentPage.ToolbarItems>
     
     <StackLayout>
         
@@ -9,7 +17,8 @@
             <ListView.ItemTemplate>
                 <DataTemplate >
                     <TextCell Text="{Binding nomeCompleto}"
-                              TextColor="Black"/>
+                              TextColor="Black"
+                              Detail="Detalhe do item na lista.."/>
                     
                 </DataTemplate>
                     

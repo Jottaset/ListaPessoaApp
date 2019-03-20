@@ -1,23 +1,21 @@
 ﻿<Properties StartupConfiguration="{AB865BDE-2F02-4BD1-AB33-C038CF4F7957}|Default">
   <MonoDevelop.Ide.ItemProperties.ListaPessoaApp.Android PreferredExecutionTarget="Android.5711d61d" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ListaPessoaApp/Model/Pessoa.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListaPessoaApp/MyPageName.xaml">
     <Files>
-      <File FileName="ListaPessoaApp/MainPage.xaml.cs" Line="25" Column="49" />
+      <File FileName="ListaPessoaApp/MainPage.xaml.cs" Line="26" Column="10" />
       <File FileName="ListaPessoaApp/MyPageName.xaml.cs" Line="9" Column="6" />
-      <File FileName="ListaPessoaApp/MyPageName.xaml" Line="8" Column="38" />
-      <File FileName="ListaPessoaApp/Model/Pessoa.cs" Line="9" Column="9" />
+      <File FileName="ListaPessoaApp/MyPageName.xaml" Line="6" Column="14" />
+      <File FileName="ListaPessoaApp/MainPage.xaml" Line="5" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ListaPessoaApp" expanded="True">
             <Node name="ListaPessoaApp" expanded="True">
-              <Node name="Model" expanded="True">
-                <Node name="Pessoa.cs" selected="True" />
-              </Node>
+              <Node name="Model" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
-              <Node name="MyPageName.xaml" expanded="True" />
+              <Node name="MyPageName.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
