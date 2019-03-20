@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:ListaPessoaApp" 
+             x:Class="ListaPessoaApp.MainPage">
+    
+    <StackLayout>
+        
+        <!-- Place new controls here -->
+        
+        <Label Text="Lista de Pessoas!"
+               FontSize="30"
+               FontFamily="Lobster-Regular.ttf#Lobster-Regular"
+               TextColor="Navy"
+               HorizontalOptions="Center" 
+               VerticalOptions="StartAndExpand"/>
+        
+        <Entry Placeholder="Digite o Nome..."
+               x:Name="label_nome"/>
+        
+        <Entry Placeholder="Digite o Sobreome..."
+               x:Name="label_sobrenome"/>
+        
+        <Button Text="Mostrar Lista"
+                FontSize="25"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ShowList"/>
+        
+        <Button Text="Salvar Nome..."
+                FontSize="Large"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="SaveList"/>
+        
+    </StackLayout>
+    
+</ContentPage>
