@@ -18,7 +18,7 @@
                 <DataTemplate >
                     <TextCell Text="{Binding nomeCompleto}"
                               TextColor="Black"
-                              Detail="Detalhe do item na lista.."/>
+                              Detail="{Binding dtCadastro}"/>
                     
                 </DataTemplate>
                     

@@ -18,6 +18,8 @@ namespace ListaPessoaApp
 
             pessoa.nome = label_nome.Text;
             pessoa.sobrenome = label_sobrenome.Text;
+            //pessoa.dtCadastro = DateTime.Now.ToString();
+            pessoa.dtCadastro = string.Format("{0: dd/MM/yyyy HH:mm:ss} ", DateTime.Now);
 
             listaNome.Add(pessoa);
 

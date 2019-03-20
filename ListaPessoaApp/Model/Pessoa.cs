@@ -5,6 +5,7 @@ namespace ListaPessoaApp
     {
         public string nome { get; set; }
         public string sobrenome { get; set; }
+        public string dtCadastro { get; set; }
 
         public string nomeCompleto
         {

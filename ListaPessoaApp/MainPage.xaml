@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:local="clr-namespace:ListaPessoaApp" 
-             x:Class="ListaPessoaApp.MainPage">
+             x:Class="ListaPessoaApp.MainPage"
+             BackgroundImage="funil.jpg">
     
     <StackLayout>
         
@@ -11,28 +12,45 @@
         <Label Text="Lista de Pessoas!"
                FontSize="30"
                FontFamily="Lobster-Regular.ttf#Lobster-Regular"
-               TextColor="Navy"
+               TextColor="White"
                HorizontalOptions="Center" 
                VerticalOptions="StartAndExpand"/>
         
         <Entry Placeholder="Digite o Nome..."
+               BackgroundColor="Silver"
                x:Name="label_nome"/>
         
         <Entry Placeholder="Digite o Sobreome..."
+               BackgroundColor="Silver"
                x:Name="label_sobrenome"/>
         
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="EndAndExpand"
+                     Orientation="Horizontal"
+                     Margin="0, 140, 0, 50">
+            
         <Button Text="Mostrar Lista"
-                FontSize="25"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
+                WidthRequest="90"
+                HeightRequest="60"
+                FontSize="10"
+                TextColor="Aqua"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
                 Clicked="ShowList"/>
         
         <Button Text="Salvar Nome..."
-                FontSize="Large"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
+                WidthRequest="90"
+                HeightRequest="60"
+                FontSize="10"
+                TextColor="Aqua"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
                 Clicked="SaveList"/>
-        
+            
+        </StackLayout>
+            
     </StackLayout>
     
 </ContentPage>
